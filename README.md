@@ -1,1 +1,0 @@
-# sequelize_crud_postgresql
