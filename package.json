@@ -1,7 +1,7 @@
 {
   "name": "sequelize_crud_postgresql",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js",
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "express": "^4.18.1",
+    "heroku": "^7.63.4",
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.23.1"
