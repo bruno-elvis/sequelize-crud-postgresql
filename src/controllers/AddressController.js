@@ -2,10 +2,20 @@ const Address = require('../models/Address');
 const User = require('../models/Users');
 
 module.exports = {
-    async findAddresses(req, res) {
-        const listAddresses = await Address.findAll();
+    async findAdress(req, res) {
+        const { user_id } = req.params;
+        
+        const user = await User.findByPk(user_id);
 
-        return res.json(listAddresses);
+        if (!user) return res.status(400).json({ error: 'Usuário não existe'});
+
+        const user_adresse = await User.findByPk(user_id, {
+            include: { association: 'own_adresses' }
+        });
+
+        if (!user_adresse.own_adresses) return res.status(204).json({ msg: 'Usuário não possui endereço vinculado'});
+
+        return res.json(user_adresse.own_adresses);
 
     },
 

@@ -1,4 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
+const Address = require('./Address');
 
 class User extends Model {
     static init(sequelize) {
@@ -9,6 +10,10 @@ class User extends Model {
             sequelize
         } );
         
+    };
+
+    static associate(models) {
+        this.hasMany(models.Address, { foreignKey: 'user_id', as: 'own_adresses' })
     };
 
 };

@@ -12,6 +12,8 @@ routes.get('/downloads', DownloadController.findDownloads);
 
 routes.get('/counts', DownloadController.findCount);
 
+routes.get('/users/:user_id/addresses', AddressController.findAdress);
+
 routes.post('/users', UserController.storeUser);
 
 routes.post('/users/:user_id/addresses', AddressController.storeAddress);
