@@ -2,6 +2,8 @@
 
 Esta API está integrada ao PostgreSQL em nuvem, disponivel na plataforma ElephantSQL ( https://www.elephantsql.com/ );
 
+Para definição das entidades no banco foi utilizado Migrations junto ao Sequelize.
+
 API rodando em ambiente Heroku ( https://www.heroku.com ), possui os endpoints:
 
 // Users
