@@ -6,6 +6,7 @@ const UserController = require('./controllers/UserController');
 const AddressController = require('./controllers/AddressController');
 const VehicleController = require('./controllers/VehiclesController');
 const DownloadController = require('./controllers/DownloadController');
+const ReportController = require('./controllers/ReportController');
 
 
 // Users
@@ -25,5 +26,8 @@ routes.delete('/users/:user_id/vehicles', VehicleController.deleteVehicle);
 routes.get('/downloads', DownloadController.findDownloads);
 routes.get('/counts', DownloadController.findCount);
 routes.post('/incrementcount', DownloadController.incrementCount);
+
+//Reports
+routes.get('/report', ReportController.show);
 
 module.exports = routes;
