@@ -9,9 +9,9 @@ module.exports = {
     },
 
     async storeUser(req, res) {
-        const { name, email } = req.body;
+        const { name, email, password } = req.body;
 
-        const newUser = await User.create( { name, email } );
+        const newUser = await User.create( { name, email, password } );
 
         return res.json(newUser);
 
