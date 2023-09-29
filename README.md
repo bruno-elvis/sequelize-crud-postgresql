@@ -1,4 +1,4 @@
-# sequelize_crud_postgresql
+# sequelize-crud-postgresql
 
 Esta API está integrada ao PostgreSQL em nuvem, disponivel na plataforma ElephantSQL ( https://www.elephantsql.com/ );
 
