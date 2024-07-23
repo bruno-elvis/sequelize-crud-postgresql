@@ -5,9 +5,6 @@
     <h1 align="center">SEQUELIZE-CRUD-POSTGRESQL</h1>
 </p>
 <p align="center">
-    <em>HTTP error 401 for prompt `slogan`</em>
-</p>
-<p align="center">
 	<img src="https://img.shields.io/github/license/Bruno-Elvis/sequelize-crud-postgresql?style=flat&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/Bruno-Elvis/sequelize-crud-postgresql?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/Bruno-Elvis/sequelize-crud-postgresql?style=flat&color=0080ff" alt="repo-top-language">
@@ -36,8 +33,6 @@
 
 ## 🔗 Quick Links
 
-> - [📍 Overview](#-overview)
-> - [📦 Features](#-features)
 > - [📂 Repository Structure](#-repository-structure)
 > - [🧩 Modules](#-modules)
 > - [🚀 Getting Started](#-getting-started)
@@ -46,18 +41,6 @@
 >   - [🧪 Tests](#-tests)
 > - [🤝 Contributing](#-contributing)
 > - [📄 License](#-license)
-
----
-
-## 📍 Overview
-
-HTTP error 401 for prompt `overview`
-
----
-
-## 📦 Features
-
-HTTP error 401 for prompt `features`
 
 ---
 
@@ -103,8 +86,8 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                              | Summary                                  |
 | ---                                                                                               | ---                                      |
-| [package.json](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/package.json) | HTTP error 401 for prompt `package.json` |
-| [yarn.lock](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/yarn.lock)       | HTTP error 401 for prompt `yarn.lock`    |
+| [package.json](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/package.json) |  `package.json` |
+| [yarn.lock](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/yarn.lock)       |  `yarn.lock`    |
 
 </details>
 
@@ -112,8 +95,8 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                            | Summary                                   |
 | ---                                                                                             | ---                                       |
-| [server.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/server.js) | HTTP error 401 for prompt `src/server.js` |
-| [routes.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/routes.js) | HTTP error 401 for prompt `src/routes.js` |
+| [server.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/server.js) |  `src/server.js` |
+| [routes.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/routes.js) |  `src/routes.js` |
 
 </details>
 
@@ -121,7 +104,7 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                                   | Summary                                           |
 | ---                                                                                                    | ---                                               |
-| [index.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/index.js) | HTTP error 401 for prompt `src/database/index.js` |
+| [index.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/index.js) |  `src/database/index.js` |
 
 </details>
 
@@ -129,11 +112,11 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                                                                                                        | Summary                                                                                   |
 | ---                                                                                                                                                                         | ---                                                                                       |
-| [20221002224821-create-user_vehicle.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20221002224821-create-user_vehicle.js) | HTTP error 401 for prompt `src/database/migrations/20221002224821-create-user_vehicle.js` |
-| [20220923032520-create-users-teste.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20220923032520-create-users-teste.js)   | HTTP error 401 for prompt `src/database/migrations/20220923032520-create-users-teste.js`  |
-| [20221002224200-create-vehicles.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20221002224200-create-vehicles.js)         | HTTP error 401 for prompt `src/database/migrations/20221002224200-create-vehicles.js`     |
-| [20220925000739-create-addresses.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20220925000739-create-addresses.js)       | HTTP error 401 for prompt `src/database/migrations/20220925000739-create-addresses.js`    |
-| [20220924233055-create-count-downs.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20220924233055-create-count-downs.js)   | HTTP error 401 for prompt `src/database/migrations/20220924233055-create-count-downs.js`  |
+| [20221002224821-create-user_vehicle.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20221002224821-create-user_vehicle.js) |  `src/database/migrations/20221002224821-create-user_vehicle.js` |
+| [20220923032520-create-users-teste.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20220923032520-create-users-teste.js)   |  `src/database/migrations/20220923032520-create-users-teste.js`  |
+| [20221002224200-create-vehicles.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20221002224200-create-vehicles.js)         |  `src/database/migrations/20221002224200-create-vehicles.js`     |
+| [20220925000739-create-addresses.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20220925000739-create-addresses.js)       |  `src/database/migrations/20220925000739-create-addresses.js`    |
+| [20220924233055-create-count-downs.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/database/migrations/20220924233055-create-count-downs.js)   |  `src/database/migrations/20220924233055-create-count-downs.js`  |
 
 </details>
 
@@ -141,10 +124,10 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                                         | Summary                                             |
 | ---                                                                                                          | ---                                                 |
-| [Users.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Users.js)         | HTTP error 401 for prompt `src/models/Users.js`     |
-| [Downloads.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Downloads.js) | HTTP error 401 for prompt `src/models/Downloads.js` |
-| [Address.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Address.js)     | HTTP error 401 for prompt `src/models/Address.js`   |
-| [Vehicles.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Vehicles.js)   | HTTP error 401 for prompt `src/models/Vehicles.js`  |
+| [Users.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Users.js)         |  `src/models/Users.js`     |
+| [Downloads.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Downloads.js) |  `src/models/Downloads.js` |
+| [Address.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Address.js)     |  `src/models/Address.js`   |
+| [Vehicles.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/models/Vehicles.js)   |  `src/models/Vehicles.js`  |
 
 </details>
 
@@ -152,7 +135,7 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                                       | Summary                                            |
 | ---                                                                                                        | ---                                                |
-| [database.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/config/database.js) | HTTP error 401 for prompt `src/config/database.js` |
+| [database.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/config/database.js) |  `src/config/database.js` |
 
 </details>
 
@@ -160,11 +143,11 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                                                                | Summary                                                           |
 | ---                                                                                                                                 | ---                                                               |
-| [AddressController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/AddressController.js)   | HTTP error 401 for prompt `src/controllers/AddressController.js`  |
-| [VehiclesController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/VehiclesController.js) | HTTP error 401 for prompt `src/controllers/VehiclesController.js` |
-| [ReportController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/ReportController.js)     | HTTP error 401 for prompt `src/controllers/ReportController.js`   |
-| [UserController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/UserController.js)         | HTTP error 401 for prompt `src/controllers/UserController.js`     |
-| [DownloadController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/DownloadController.js) | HTTP error 401 for prompt `src/controllers/DownloadController.js` |
+| [AddressController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/AddressController.js)   |  `src/controllers/AddressController.js`  |
+| [VehiclesController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/VehiclesController.js) |  `src/controllers/VehiclesController.js` |
+| [ReportController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/ReportController.js)     |  `src/controllers/ReportController.js`   |
+| [UserController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/UserController.js)         |  `src/controllers/UserController.js`     |
+| [DownloadController.js](https://github.com/Bruno-Elvis/sequelize-crud-postgresql/blob/master/src/controllers/DownloadController.js) |  `src/controllers/DownloadController.js` |
 
 </details>
 
